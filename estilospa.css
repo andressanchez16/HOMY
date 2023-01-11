@@ -18,5 +18,10 @@ a:hover{
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: minmax(50px, auto);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
+
+.espacio{
+    display: flex;
+    justify-content: space-between;
+}
