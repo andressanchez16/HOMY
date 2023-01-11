@@ -1,0 +1,22 @@
+body{
+    color: darkgrey;
+}
+
+a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+a:hover{
+    color: wheat;
+}
+
+.grid {
+    background-color:lightyellow;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    align-items: center;
+    justify-content: center;
+  }
