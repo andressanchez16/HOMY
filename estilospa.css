@@ -1,10 +1,10 @@
 body{
-    color: darkgrey;
+
 }
 
 a{
     text-decoration: none;
-    color: darkgrey;
+    color: white;
 }
 
 a:hover{
@@ -12,7 +12,7 @@ a:hover{
 }
 
 .grid {
-    background-color:lightyellow;
+    background-color:rgb(179, 179, 135);
     list-style: none;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
