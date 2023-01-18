@@ -8,7 +8,7 @@ a{
 }
 
 a:hover{
-    color: wheat;
+    color:dimgrey;
 }
 
 .grid {
@@ -30,21 +30,9 @@ a:hover{
     grid-column: 9;
 }
 
-.espacio{
-    display: flex;
-    justify-content: space-between;
-}
-
 .nube{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: auto;
     grid-gap: 10px;
-}
-
-.cabeza{
-    grid-column: span 12;
-    grid-row: 1;
-    align-content: center;
-    background-color: blueviolet;
 }
