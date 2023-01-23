@@ -1,0 +1,15 @@
+h1{
+    display: grid;
+    background-color: lightblue;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+article{
+    display: grid;
+    background-color: lightblue;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
