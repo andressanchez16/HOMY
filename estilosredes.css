@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:dimgrey;
+}
+
+.grid {
+    background-color:lightblue;
+    grid-template-columns: repeat(12, 1fr);
+    list-style: none;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.a{
+    grid-column: 7;
+}
+
+.b{
+    grid-column: 9;
+}
+
+.redes{
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.separacion{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.ig{
+    grid-column: 1;
+}
+
+.mail{
+    grid-column: 2;
+}
+
+.whats{
+    grid-column: 3;
+}
+
+.cel{
+ grid-column: 4;
+}
